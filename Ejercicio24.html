@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h2>Cambiar la cabezera de una página usando javascript</h2>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<h1 id="id">Este titulo se cambiará</h1>
+<button onclick="displayResult()">CPulsa para cambiar el titulo</button>
+
+<script>
+function displayResult() {
+  document.getElementById("id").innerHTML = "Título cambiado";
+}
+</script>
+
+</body>
+</html>
